@@ -18,7 +18,7 @@ function style(feature) {
 }
 
 //Color Neighborhoods
-geojson = L.geoJson(commAreas, {style: style}).addTo(map);
+geojson = L.geoJson(tracts, {style: style}).addTo(map);
 
 // Add draw interface for userArea
 var drawnItems = new L.LayerGroup();
